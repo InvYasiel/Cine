@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100.333mm" height="98.8332mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10033 9883"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:150}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+<symbol id="asiento" viewBox="514 309 9005 9269">
+ <polygon class="fil0 str0" points="5017,9499 7208,8760 9400,8021 8563,6825 7726,5629 5017,5629 2308,5629 1470,6825 633,8021 2825,8760 "/>
+ <rect class="fil0 str0" x="1906" y="384" width="6222" height="5854"/>
+ <rect class="fil0 str0" x="908" y="1584" width="997" height="2977"/>
+ <rect class="fil0 str0" x="8120" y="1465" width="997" height="2977"/>
+ <ellipse class="fil0 str0" cx="8623" cy="925" rx="495" ry="541"/>
+</symbol>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <use x="364" y="433" width="9005" height="9269" xlink:href="#asiento"/>
+ </g>
+</svg>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/asientos.css">
+    <title>Asientos</title>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="contenedor"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " id="head">
+        <a class="navbar-brand titulo" >
+            <i class="fas fa-film"></i> Cines Yasiel</a>
+    </nav>
+    <h1 class="text-center">Selecciona asientos</h1>
+    <div class="container">
+        <div class="contInfo">
+            <!-- 30% -->
+            <div class="Portada">
+                <img src="" id='Portada' alt="">
+            </div>
+            <!-- 30% -->
+            <div class="infoPeli"></div>
+            <!-- 30% -->
+            <div class="infoUsuario"></div>
+            <div class="leyenda">
+                Los asientos libres
+                <div class="libre" id="libre"></div>
+                Los asientos seleccionados
+                <div class="selec"></div>
+                Los asientos ocupados
+                <div class="reserved"></div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" version="1.1" viewBox="0 0 10033 9883" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <symbol id="asiento" viewBox="514 309 9005 9269">
+                <polygon points="5017,9499 7208,8760 9400,8021 8563,6825 7726,5629 5017,5629 2308,5629 1470,6825 633,8021 2825,8760 " />
+                <rect x="1906" y="384" width="6222" height="5854" />
+                <rect x="908" y="1584" width="997" height="2977" />
+                <rect x="8120" y="1465" width="997" height="2977" />
+                <ellipse cx="8623" cy="925" rx="495" ry="541" />
+            </symbol>
+
+            <use x="364" y="433" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="1" />
+            <use x="364" y="1333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="2" />
+            <use x="364" y="2333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="73" />
+            <use x="364" y="3333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="3" />
+            <use x="364" y="4333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="4" />
+            <use x="364" y="5333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="5" />
+            <use x="364" y="6333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="6" />
+            <use x="364" y="7333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="7" />
+
+            <use x="1034" y="433" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="8" />
+            <use x="1034" y="1333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="9" />
+            <use x="1034" y="2333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="10" />
+            <use x="1034" y="3333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="11" />
+            <use x="1034" y="4333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="12" />
+            <use x="1034" y="5333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="13" />
+            <use x="1034" y="6333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="14" />
+            <use x="1034" y="7333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="15" />
+
+
+            <use x="2564" y="433" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="16" />
+            <use x="2564" y="1333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="17" />
+            <use x="2564" y="2333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="18" />
+            <use x="2564" y="3333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="19" />
+            <use x="2564" y="4333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="20" />
+            <use x="2564" y="5333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="21" />
+            <use x="2564" y="6333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="22" />
+            <use x="2564" y="7333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="23" />
+
+            <use x="3564" y="433" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="24" />
+            <use x="3564" y="1333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="25" />
+            <use x="3564" y="2333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="26" />
+            <use x="3564" y="3333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="27" />
+            <use x="3564" y="4333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="28" />
+            <use x="3564" y="5333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="29" />
+            <use x="3564" y="6333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="30" />
+            <use x="3564" y="7333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="31" />
+
+            <use x="4564" y="1333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="32" />
+            <use x="4564" y="2333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="33" />
+            <use x="4564" y="3333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="34" />
+            <use x="4564" y="4333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="35" />
+            <use x="4564" y="5333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="36" />
+            <use x="4564" y="6333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="37" />
+            <use x="4564" y="7333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="38" />
+            <use x="4564" y="433" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="39" />
+
+
+            <use x="5564" y="1333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="40" />
+            <use x="5564" y="2333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="41" />
+            <use x="5564" y="3333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="42" />
+            <use x="5564" y="4333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="43" />
+            <use x="5564" y="5333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="44" />
+            <use x="5564" y="6333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="45" />
+            <use x="5564" y="7333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="46" />
+            <use x="5564" y="433" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="47" />
+
+
+            <use x="6564" y="1333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="48" />
+            <use x="6564" y="2333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="49" />
+            <use x="6564" y="3333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="50" />
+            <use x="6564" y="4333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="51" />
+            <use x="6564" y="5333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="52" />
+            <use x="6564" y="6333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="53" />
+            <use x="6564" y="7333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="54" />
+            <use x="6564" y="433" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="55" />
+
+
+            <use x="8064" y="1333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="56" />
+            <use x="8064" y="2333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="57" />
+            <use x="8064" y="3333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="58" />
+            <use x="8064" y="4333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="59" />
+            <use x="8064" y="5333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="61" />
+            <use x="8064" y="6333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="62" />
+            <use x="8064" y="7333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="63" />
+            <use x="8064" y="433" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="64" />
+
+
+            <use x="8664" y="1333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="65" />
+            <use x="8664" y="2333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="66" />
+            <use x="8664" y="3333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="67" />
+            <use x="8664" y="4333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="68" />
+            <use x="8664" y="5333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="69" />
+            <use x="8664" y="6333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="70" />
+            <use x="8664" y="7333" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="71" />
+            <use x="8664" y="433" width="515" height="879" xlink:href="#asiento" style="stroke: #2B2A29;stroke-width: 150;fill: white;"
+                onclick="cambiar(this.id)" id="72" />
+
+
+
+        </svg>
+
+    </div>
+    <div class="footer">
+        Copyright 2018 (c) - Yasiel Hernández Rodríguez - &nbsp;
+        <img src="img/88x31.png" alt="CreativeCommons">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/asientos.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: "Arial";
+    -webkit-font-smoothing: antialiased !important;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 1.5em;
+    font-size: 1.2em;
+}
+#head{
+    background-color: #ee6e73 !important;
+    color: white;
+}
+.titulo{
+    font-size: 2em;
+    color:white !important;
+}
+.contInfo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+.Portada{
+    width: 30%;
+    margin: 0 auto;
+}
+.contsala{
+    width: 100%;
+}
+#Portada{
+    width: 100%;
+}
+.infoUsuario{
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 55px;
+    text-align: center;
+    
+    
+}
+.infoPeli{
+    text-align: center;
+    width: 30%;
+    margin-left: 25px;
+}
+use{
+    cursor: pointer;    
+}
+.btn{
+    margin-top: 25px;
+}
+.footer {
+    border-top: solid white 1px;
+    color: black;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.libre{
+    border: solid 1px black;
+    width: 20px;
+    height: 20px;
+}
+.selec{
+    border: solid 1px black;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+}
+.reserved{
+    border: solid 1px black;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 1100px) {
+    .Portada{
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+    .infoUsuario{
+        width: 100%;
+    }
+    .infoPeli{
+        text-align: center;
+        width: 100%;
+    }
+  }

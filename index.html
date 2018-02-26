@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/jquery.js"></script>
+    <title>Página Príncipal</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " id="head">
+        <a class="navbar-brand titulo " href="#"><i class="fas fa-film" ></i> Cines Yasiel</a>
+
+    </nav>
+
+    <h1 class="text-center">Películas Disponibles</h1>
+    <div class="containerMovies">
+        
+
+    </div>
+
+
+    <!-- Modal Horario -->
+
+
+    <div class="modal fade" id="modalHorario" tabindex="-1" role="dialog" aria-labelledby="modalHorarioLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalHorarioLabel">Pélicula</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="containerModal">
+                        <input type="hidden" id="modId">
+                        <div class="contPeli">
+                            <div class="bodyleft">
+                                <img src="img/barco.jpg" id="modimagen" alt="">
+                            </div>
+                            <div class="bodyright">
+                                <div class="modtitle">
+                                    <p id="modtitle">Black Panter</p>
+                                </div>
+                                <div class="modsinopsis">
+                                    <p id="modsinopsis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit eos voluptatibus Fuga
+                                        iste facilis molestiae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        </br>
+                        <div class="conDatos">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="selectDia">Día</label>
+                                </div>
+                                <select class="custom-select" id="selectDia">
+                                    <option selected>Choose...</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="selectHora">Hora</label>
+                                </div>
+                                <select class="custom-select" id="selectHora">
+                                    <option selected>Choose...</option>
+                                </select>
+                            </div>
+                            <label for="Npersonas">Numero de Personas</label>
+                            <input type="number" name="Npersonas" id="Npersonas" min="1" max="10" value="1">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="peliculaActual()">Seleccionar Asientos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright 2018 (c) - Yasiel Hernández Rodríguez - &nbsp;
+        <img src="img/88x31.png" alt="CreativeCommons">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
