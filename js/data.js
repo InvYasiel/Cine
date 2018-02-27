@@ -5,7 +5,7 @@ var peliculas = [
         sinopsis: "Los soldados aliados de Bélgica, el Imperio Británico, Canada y Francia estaban " +
                 "rodeados por  el ejército Alemán y fueron evacuados en una batalla feroz durante" +
                 " la Segunda Guerra Mundial.",
-        img: "DUNKERQUE.jpg",
+        img: "dunkerque.JPG",
         horario: [
             {
                 dia: "Lunes",
